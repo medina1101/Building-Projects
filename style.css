@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(61, 168, 192); */
+}
+
+.nav_left {
+    padding-left: 55px;
+}
+
+.nav_right a {
+    margin: 25px;
+    text-decoration: none;
+    color: #374151;
+}
+
+.nav_right a:hover {
+    color: rgb(28, 101, 77);
+}
+
+#contact {
+    width: 100px;
+    height: 30px;
+    margin-right: 55px;
+    border: none;
+    border-radius: 10px;
+    background: #5E3BEE;
+    color: antiquewhite;
+}
+
+#contact:hover {
+    cursor: pointer;
+    background-color: rgb(19, 98, 177);
+}
+
+.section1 {
+    width: 100%;
+    height: auto;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.section1 p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.section1 h3 {
+    width: 500px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+#connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #5E3BEE;
+    margin-left: 10rem;
+}
+
+#connect:hover {
+    background-color: rgb(77, 27, 170);
+}
+
+
+.the_work {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 55px;
+}
+
+.work {
+    width: 210px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.sec2_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 15px;
+}
+
+
+.ice-cream {
+    width: 512px;
+    height: 84px;
+}
+
+.ice-cream img {
+    width: 512px;
+    height: 656px;
+}
+
+.ice-cream h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+.ice-cream span {
+    width: 512px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #374151;
+
+}
+
+.plant-store {
+    width: 512px;
+    height: 84px;
+    padding-top: 10%;
+}
+
+.plant-store img {
+    width: 512px;
+    height: 656px;
+}
+
+.plant-store h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+.plant-store span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #374151;
+}
+
+.sec2_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 60%;
+}
+
+
+.nike-app {
+    width: 512px;
+    height: 84px;
+}
+
+.nike-app img {
+    width: 512px;
+    height: 656px;
+}
+
+.nike-app h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+.nike-app span {
+    width: 512px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #374151;
+
+}
+
+.students {
+    width: 512px;
+    height: 84px;
+    padding-top: 10%;
+}
+
+.students img {
+    width: 512px;
+    height: 656px;
+}
+
+.students h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+.students span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #374151;
+}
+
+#my-dribble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 65%;
+    margin-left: 5%;
+    background-color: #111827;
+    border: none;
+    border-radius: 100px;
+    color: white;
+}
+
+#my-dribble:hover{
+    background-color: #4B5563;
+    cursor: pointer;
+}
+
+
+#my-dribble p {
+    padding-right: 10px;
+}
+
+.section3{
+    width: 1150px;
+    height: 440px;
+    background: #F0FEFA;
+    margin: 5%;
+}
+
+.sec3_left {
+    width: 300px;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+.sec3_left h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #111827;
+}
+
+.sec3_left span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #4B5563;
+}
+
+#sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: #5E3BEE;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    margin-top: 3%;
+}
+
+#sec3:hover{
+    background-color: #5433bd;
+    cursor: pointer;
+}
+
+.sec3_middle{
+    width: 300px;
+    
+}
+
