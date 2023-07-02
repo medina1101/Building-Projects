@@ -10,7 +10,6 @@
     width: 100%;
     height: auto;
     overflow-x: hidden;
-    /* background-color: lightslategray;     */
 }
 
 nav {
@@ -19,7 +18,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position: fixed;  */
 }
 
 .nav_left {
@@ -345,7 +343,7 @@ nav {
 }
 
 
-.sec3_right{
+.sec3_right {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -363,39 +361,38 @@ nav {
     margin-bottom: 8%;
 }
 
-.sec3_right1 h1{
+.sec3_right1 h1 {
     width: 300px;
     padding: 15% 0 10% 0;
 }
 
-.sec3_right1 span{
+.sec3_right1 span {
     letter-spacing: 2px;
 }
 
-.sec3_right2{
+.sec3_right2 {
     width: 300px;
     height: 300px;
     background-color: white;
     padding: 3%;
 }
 
-.sec3_right2 h1{
+.sec3_right2 h1 {
     width: 300px;
     padding: 15% 0 10% 0;
 }
 
-.sec3_right2 span{
+.sec3_right2 span {
     letter-spacing: 2px;
 }
 
 
-.section4{
+.section4 {
     width: 100%;
     height: auto;
-    /* background-color: rgb(161, 249, 249); */
 }
 
-.section4 p{
+.section4 p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -404,18 +401,18 @@ nav {
     letter-spacing: 2px;
 }
 
-.section4 .brands{
+.section4 .brands {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 15px;
 }
 
-.section4 .brands img{
+.section4 .brands img {
     padding: 5px 20px;
 }
 
-.section5{
+.section5 {
     width: 100%;
     height: auto;
     display: flex;
@@ -424,67 +421,67 @@ nav {
     flex-direction: row;
 }
 
-.sec5_left{
+.sec5_left {
     width: 350px;
     height: auto;
     margin-right: 5%;
 }
 
-.sec5_left p{
+.sec5_left p {
     padding: 15px 0;
 }
 
-.sec5_middle img{
+.sec5_middle img {
     padding: 15% 0;
 }
 
-.sec5_right{
+.sec5_right {
     padding-left: 8%;
 }
 
-.sec5_right .card{
+.sec5_right .card {
     padding: 10% 0;
 }
 
-.sec5_right .card h1{
+.sec5_right .card h1 {
     padding: 5% 0;
 }
 
-.sec5_right .card p{
+.sec5_right .card p {
     color: grey;
     letter-spacing: 1px;
 }
 
-.section6{
+.section6 {
     width: 100%;
     height: 500px;
     background-color: black;
     padding: 10% 0;
 }
 
-.sec6_left{
+.sec6_left {
     color: white;
     padding-left: 5%;
 }
 
-.sec6_left h1{
+.sec6_left h1 {
     font-size: 50px;
     padding-bottom: 25px;
     letter-spacing: 2px;
 }
 
-.sec6_left h2{
+.sec6_left h2 {
     font-size: 35px;
     letter-spacing: 2px;
 }
 
-.sec6_left p{
+.sec6_left p {
     padding-top: 8%;
     font-size: 20px;
     letter-spacing: 2px;
 }
 
-.sec6_right{
+.sec6_right {
     color: rgb(172, 172, 172);
     display: flex;
     align-items: center;
@@ -493,21 +490,11 @@ nav {
     margin-top: -4%;
 }
 
-.sec6_right .links{
+.sec6_right .links {
     font-size: 20px;
     letter-spacing: 2px;
 }
 
-.sec6_right .links p{
+.sec6_right .links p {
     margin: 35px;
 }
-
-
-
-
-
-
-
-
-
-
